@@ -37,7 +37,7 @@
       h. Output is ```NaN``` because the "-" operator tries to subtract _undefined_, which does not make sense.
   14.  
       a. Output is ```true``` because the less than/greater than operators need integer values.  
-      b. Output is ```fakse``` because the less than/greater than operators interpret them as integer values.  
+      b. Output is ```false``` because the less than/greater than operators interpret them as integer values.  
       c. Output is ```true``` because the == operator needs values of the same type which, in this case, is two ints.  
       d. Output is ```false``` because the === operator test for strict equality (same type and value).  
       e. Output is ```false``` because _true_ is interpreted as a 1.  

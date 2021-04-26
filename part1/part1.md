@@ -20,6 +20,9 @@
   9. There will be an error because ```i``` will not be in range on line 12. When we use let, the scope of the variable is just in the immediate function scope.
   10. It will print ```3```.
   11. It will return an array ```[50, 100, 150]```.
-  12a. ```student.name```
-  12b. ```student["Grad Year"]```
-  12c. 
+  12.  
+      a. ```student.name```  
+      b. ```student["Grad Year"]```  
+      c. ```student.greeting()```  
+      d. ```student["Favorite Teacher"].name```  
+      e. ```student.courseLoad[0]```

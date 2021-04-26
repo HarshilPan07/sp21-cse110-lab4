@@ -44,4 +44,6 @@
       f. Output is ```true``` because anything that is not a 0 when passed into the _Boolean()_ function is _true_.  
   15. The === operator tests for **strict** equality, which means that the two variables must be of the same data type and value, whereas the == operator does not      require the same data type, and rather interprets it "on the go."
   16. (in part1b-question16.js file)
-  17. 
+  17. When we first enter _modifyArray_, we will initialize a ```const newArr``` and loop over it in a _for_ loop. In each iteration, we push a value to the array that is returned when the callback function _doSomething_ is passed the whatever value is in the array we passed in ([1,2,3]) at current running index _i_. For example, in the first iteration, we pass in ```array[0]``` into the callback function, which returns a value 1. This value is passed into the function _doSomething_ and is multiplied by 2 and returned. Finally, this value that is returned is pushed into the _newArr_. This continues until we reach the end of the array.
+  18. (in part1b-question18.js file)
+  19. 

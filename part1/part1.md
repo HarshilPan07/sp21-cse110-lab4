@@ -1,6 +1,6 @@
 # part1
 
-1a.
+## Part 1a.
   1. ```values added: 20 ```
   2. ```final result: 20 ```
   3. ```values added: 20 ```
@@ -8,7 +8,7 @@
   5. There would be an error becaues the variable _result_ was assigned to a constant value, meaning that it cannot be reassigned. We would get an error on line 7.
   6. We would not even get to line 13, because there would be an error at line 7, where it would say that we cannot reassign a constant variable.
 
-1b.
+## Part 1b.
   1. It would print out ```3```.
   2. It would print out ```150```.
   3. It would print out ```150```.
